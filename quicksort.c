@@ -21,7 +21,6 @@ int Partition(int* array, int start_index, int end_index)
 	{
 		if (array[j] < pivot)
 		{
-			printf("do we get here?");
 			swap(&array[i], &array[j]);
 
 			i = i + 1;
